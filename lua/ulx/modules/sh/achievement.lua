@@ -6,7 +6,7 @@ function ulx.achievement( calling_ply, target_plys, name )
 		end
 	end
 	
-	ULib.tsay( _, "You faked the achievement " .. name .. " for the players you selected.")
+	ULib.tsay( calling_ply, "You faked the achievement " .. name .. " for the players you selected.")
 
 end
 local achievement = ulx.command( "Prop Hunt", "ulx achievement", ulx.achievement, "#ach", true, true )
