@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+        "name"              "ULXAchievement"
+        "version"           "1.0"
+        "author_name"       "The Realist"
+        "author_email"      ""
+        "info"              "Sends a fake Garry's Mod achievement notice to all connected players."
+        "override"          "0"
+}
